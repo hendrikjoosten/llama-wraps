@@ -9,6 +9,7 @@ packages = [{include = "llama_wraps"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 llama-cpp-python = "^0.1.77"
+transformers = "^4.31.0"
 
 
 [build-system]
