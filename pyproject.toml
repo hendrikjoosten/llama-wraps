@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llama-wraps"
+version = "0.1.0"
+description = ""
+authors = ["hj"]
+readme = "README.md"
+packages = [{include = "llama_wraps"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-cpp-python = "^0.1.77"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
